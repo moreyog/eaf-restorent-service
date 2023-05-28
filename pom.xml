@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eaf</groupId>
-	<artifactId>eaf-discovery-service</artifactId>
+	<artifactId>eaf-restorent-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eaf-discovery-service</name>
+	<name>eaf-restorent-service</name>
 	<description>Enterprise Application Framework</description>
 	<properties>
 		<java.version>18</java.version>
@@ -35,6 +35,11 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.eaf</groupId>
+			<artifactId>eaf-security</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
