@@ -20,8 +20,14 @@ public class RestaurantController {
         return service.greeting();
     }
 
+   // @GetMapping("/orders/status/{orderId}")
+   // public OrderResponseDTO getOrder(@PathVariable String orderId) {
+   //     return service.getOrder(orderId);
+    //}
+
     @GetMapping("/orders/status/{orderId}")
-    public OrderResponseDTO getOrder(@PathVariable String orderId) {
-        return service.getOrder(orderId);
+    public String getOrder(@PathVariable String orderId) {
+        return  service.greeting();
+        //return service.getOrder(orderId);
     }
 }

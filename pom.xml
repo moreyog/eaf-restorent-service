@@ -41,6 +41,11 @@
 			<artifactId>eaf-security</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.eaf</groupId>-->
+<!--			<artifactId>test-security</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
 	</dependencies>
 	<build>
 		<plugins>
